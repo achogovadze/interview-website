@@ -1,0 +1,50 @@
+.Title {
+    align-items: center;
+}
+
+.Title h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1b385e;
+    text-align: center;
+    font-weight: 500;
+}
+
+.ContentDivs {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ContentDiv {
+    width: calc((100vw * .45) / 3);
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.ContentDiv h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #1089ff;
+    margin-bottom: 0;
+}
+
+.ContentDiv h3, p {
+    text-align: center;
+    color: #1b385e;
+    margin-bottom: 0;
+}
+
+.ContentDiv p {
+    font-size: 11px;
+    line-height: 1.7;
+    font-weight: lighter;
+}
+
+.ShadowedDiv {
+    box-shadow: -10px 31px 25px 4px rgba(10, 100, 179, 0.096);
+}

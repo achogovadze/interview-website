@@ -1,0 +1,47 @@
+.Outer {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Title {
+    width: 100%;
+}
+
+.Title h3 {
+    color: #ffa900;
+    font-size: 25px;
+}
+
+.Title h1 {
+    color: #1b385e;
+    font-size: 45px;
+}
+
+.Footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.Footer h4 {
+    color: #1b385e;
+}
+
+.Images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .Images {
+        display: block;
+    }
+}

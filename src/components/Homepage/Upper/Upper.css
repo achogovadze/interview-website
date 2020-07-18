@@ -1,0 +1,102 @@
+.Upper {
+    display: flex;
+}
+
+.Intro {
+    min-width: calc(50vw);
+    max-height: calc(70vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IntroContent h1 {
+    font-size: 85px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(41, 41, 41);
+}
+
+.IntroContent p {
+    max-width: 70%;
+    margin-top: 30px;
+    line-height: 1.7;
+    text-align: start;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: grey;
+}
+
+.IntroContent {
+    max-width: 90%;
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+.AppIcons {
+    display: flex;
+    align-items: center;
+}
+
+.AppIcons img {
+    max-width: 80%;
+}
+
+.IntroImage {
+    max-width: 700px;
+    margin-right: 250px;
+}
+
+.UpperImage1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Wrap {
+    overflow: hidden; 
+    /* min-width: calc(50vw); */
+}
+
+.UpperImage2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.UpperImage1 {
+    max-width: calc(50vw);
+    width: 500px;
+    position: absolute;
+    /* max-width: 70%; */
+    /* position: absolute; */
+}
+
+.UpperImage2 {
+    max-width: calc(50vw);
+    width: 530px;
+    padding-left: 13%;
+    /* max-width: 70%; */
+}
+
+@media (max-width: 1400px) {
+    /* .UpperImage2 {
+        padding-left: 23%;
+    } */
+
+    .IntroContent h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .IntroContent h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .IntroContent h1 {
+        font-size: 25px;
+    }
+}
